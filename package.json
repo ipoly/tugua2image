@@ -1,0 +1,16 @@
+{
+  "name": "tugua2image",
+  "version": "0.0.1",
+  "description": "Transform penti_tugua to image",
+  "main": "index.coffee",
+  "scripts": {
+    "start": "coffee index.coffee",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mail@zeng.li",
+  "license": "MIT",
+  "dependencies": {
+    "coffee": "^1.1.0",
+    "phantomjs": "^1.9.17"
+  }
+}
