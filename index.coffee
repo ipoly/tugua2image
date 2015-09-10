@@ -10,6 +10,11 @@ postID = casper.cli.args[0]
 
 if postID
   casper.start()
+  casper.page.paperSize =
+    width: '4.14in'
+    height: '7.36in'
+    orientation: 'portrait'
+    border: '0.04in'
   casper.thenOpen "http://dapenti.com/blog/readforwx.asp?name=xilei&id=#{postID}", ->
     @echo 'Capture png...'
     @capture 'tugua.png'
